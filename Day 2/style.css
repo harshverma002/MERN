@@ -1,0 +1,181 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+div{
+  background-color: orange;
+text-decoration: underline;
+text-transform: capitalize;
+color: black;
+}
+#heading{
+  background-color: white;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: black;
+}
+.head{
+  background-color: aqua;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: black;
+}
+.headtwo{
+  background-color: green;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: black;
+}
+.parent{
+  p{
+    background-color: red;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+  }
+  span{
+    background-color: aqua;
+  }
+  text-align: center;
+ 
+}
+div{
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+
+} 
+ 
+ html{
+  font-size: 10px;
+}
+.parent{
+  font-size: 2rem;
+}
+
+
+.child{
+  font-size: 2em;
+  background-color: red;
+  width: 10rem;
+}
+.btn{
+  display: block;
+  font-size: 1em;
+
+}
+
+.btn-small{
+  font-size: 10px;
+  
+
+} 
+
+body{
+  height: 100vh;
+  width: 100vw;
+  padding: 2px 30px;
+  margin: 10px;
+}
+
+.parent{
+  background-color: rgb(7, 53, 53);
+  height: 100%;
+}
+
+.child{
+  background-color: rgb(177, 126, 17);
+  height: 100%;
+  padding: 2px 30px;
+} */
+
+.parent{
+ 
+  ul:first-child{
+    background-color: greenyellow;
+  }
+  ul:last-child{
+    background-color: aqua;
+    li:nth-child(1){
+      background-color: red;
+      
+      
+    }
+  }
+  ul:nth-child(3){
+      background-color: green;
+      li:nth-child(1){
+        background-color: red;
+        
+      }
+      li:nth-of-type(3){
+        background-color: blueviolet;
+      }
+  }
+  
+  
+}
+
+.parent>ul{
+  background-color: brown;
+} 
+
+.parent{
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child{
+  background-color: blanchedalmond;
+  border: 1px solid red;
+  flex-basis: 30px;
+  flex-shrink: 0;
+}
+
+.search-box{
+  flex-grow: 3;
+  flex-shrink: 1;
+}
+
+.cart{
+  flex-grow: 1;
+} 
+
+
+
+.parent1{
+  justify-content: space-between;
+  display: flex;
+  background-color: aqua;
+  
+}
+
+.parent2{
+  justify-content: space-around;
+  display: flex;
+  background-color: aqua;
+  
+}
+
+.parent3{
+  justify-content: space-evenly;
+  display: flex;
+  background-color: aqua;
+  
+}
+.parent4{
+  justify-content: flex-end;
+  display: flex;
+  background-color: aqua;
+  
+}
+
+.child{
+  background-color: orange;
+  padding: 10px;
+}
