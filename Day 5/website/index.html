@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News page</title>
+  <style>
+    footer{
+      height: 50px;
+      background-color: orange;
+    }
+    header{
+      height: 100px;
+      background-color: orange;
+    }
+    body{
+      background-color: rgb(201, 130, 37);
+    }
+    *{
+      padding: 0;
+      margin: 0;
+      /* box-sizing: border-box; */
+    }
+    .news-card{
+      background-color: bisque;
+      max-width: 400px;
+      padding: 24px;
+      margin: 40px;
+      border-radius: 50px;
+      opacity: 0.7;
+    }
+    img{
+      max-width: 300px;
+      max-height: 300px;
+      display: grid;
+      margin: auto;
+    }
+    .news-card:hover{
+      scale: 1.1;
+      transition-duration: 1s ;
+      opacity: 5;
+    }
+    #root{
+      display: grid;
+      grid-template-columns: 450px 450px 450px;
+    }
+    .listItems{
+      display: inline;
+      text-decoration: none;
+      list-style-type: none;
+      
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav id="header">
+      <ol>
+        <li class="listItems"><a href="#">Home</a></li>
+        <li class="listItems"><a href="#">Latest News</a></li>
+        <li class="listItems"><a href="#">Education</a></li>
+        <li class="listItems"><a href="#">World</a></li>
+        <li class="listItems"><a href="#">India</a></li>
+        <li class="listItems"><a href="#">Life Styles</a></li>
+        <li class="listItems"><a href="#">Cricket</a></li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <div id="root"></div>
+  </main>
+  <footer></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
