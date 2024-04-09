@@ -1,5 +1,5 @@
 function fetchAPI(){
-  const url='https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/delhi?unitGroup=us&key=KFJEQJD4XY5K8FR6FX4LJ8NUV'
+  const url='https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/delhi?unitGroup=us&key=BBWKYNL6MVPXBU9A8EQBM8YNH'
   fetch(url)
    .then((Response)=>{
        // console.log(Response)
