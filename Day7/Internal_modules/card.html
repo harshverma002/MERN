@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .products-cards:hover{
+      scale: 1.05;
+      transition-duration: 250ms;
+      transition-timing-function:1s ;
+      /* opacity: 1; */
+    }
+    .products-cards{
+    max-width:500px;
+    margin:20px auto;
+    border:3px solid rgb(224, 13, 13);
+    border-radius:8px;
+    padding:16px;
+    background-color: rgba(240, 123, 13, 0.849);
+    /* opacity: 0.5; */
+    border-radius: 50px;
+  }
+  body{
+    background-color: rgba(20, 17, 17,2);
+  }
+  img{
+    border-radius: 50px;
+  }
+  h2{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+  }
+  a:hover{
+    scale: 1.05;
+  }
+    
+
+  
+  </style>
+</head>
+<body>
+  <div class="products-cards">
+    <h2>_TITLE_</h2>
+    <img src="_IMG_">
+    <p>_INFO_</p>
+    <a href="rating" onclick="alert(`${rating}`)">Rating</a>
+    </div>
+</body>
+</html>
